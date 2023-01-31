@@ -33,9 +33,9 @@ In last statement give the print statement
 ```
 Developed by : Kavinraja D
 Register no : 22007928
-import sys,
+import sys
 count=0
-with openm(sys.argv[1],'r) as f:
+with open(sys.argv[1],'r) as f:
     for line in f:
     word=line.split()
     count+=line.(word)
